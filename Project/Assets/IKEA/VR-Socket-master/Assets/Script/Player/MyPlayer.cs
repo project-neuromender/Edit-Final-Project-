@@ -56,11 +56,11 @@ public class MyPlayer : MonoBehaviourPunCallbacks, IPunObservable
             // MyPlayer.LocalPlayerInstance = this.gameObject;
             //DontDestroyOnLoad(this.gameObject);
 
-            _PlayerNickname.text = "Player: " + PhotonNetwork.LocalPlayer.NickName;
+            _PlayerNickname.text = "" + PhotonNetwork.LocalPlayer.NickName;
         }
         else
         {
-            _PlayerNickname.text = "Player: " + photonView.Owner.NickName;
+            _PlayerNickname.text = "" + photonView.Owner.NickName;
 
 
             //deactivate if it is not YOU.
