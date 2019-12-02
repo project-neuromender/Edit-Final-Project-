@@ -54,5 +54,6 @@ MonoBehaviour:
   - StartInteraction
   - Drop
   - Start
+  - Awake
   DisableAutoOpenWizard: 1
   ShowSettings: 1
