@@ -97,10 +97,16 @@ public class Manager : MonoBehaviourPunCallbacks
         //Debug.LogFormat("Ignoring scene load for {0}", SceneManagerHelper.ActiveSceneName);
     }  
 
-    public void LeaveRoom()
+    /*public void LeaveRoom()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("MainScene");
-    }
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Rooms");
+    }*/
 
     #endregion
+
+    public override void OnLeftRoom()
+    {
+        SceneManager.LoadScene("Rooms");
+    }
+
 }
