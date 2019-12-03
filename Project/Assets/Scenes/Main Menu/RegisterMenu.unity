@@ -403,7 +403,7 @@ RectTransform:
   m_AnchoredPosition: {x: -25.3, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!21 &354062835
+--- !u!21 &344593817
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -2164,7 +2164,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Enter Password More Than 8 Character '
+  m_Text: 'Enter Password More Than 4 Character '
 --- !u!222 &1080368418
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2258,7 +2258,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1170841395}
   m_CullTransparentMesh: 0
---- !u!43 &1308462953
+--- !u!43 &1172502684
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3128,7 +3128,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enter Username More Than 8 Character
+  m_Text: Enter Username More Than 4 Character
 --- !u!222 &1761245853
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3577,7 +3577,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 354062835}
+  - {fileID: 344593817}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3605,7 +3605,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1612040201191713868}
-  m_Mesh: {fileID: 1308462953}
+  m_Mesh: {fileID: 1172502684}
 --- !u!4 &1612040201191439796
 Transform:
   m_ObjectHideFlags: 0
